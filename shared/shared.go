@@ -6,10 +6,10 @@ type S struct{
 
 var s *S = &S{}
 
-func (s *S) setValue(value string){
+func (s *S) SetValue(value string){
 	(*s).value=value
 }
 
-func getS() *S {
+func GetS() *S {
 	return s
 }

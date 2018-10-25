@@ -6,11 +6,11 @@ import (
 )
 
 
-func setPack2() {
-    shared.setValue("Pack 2 value")
+func SetPack2() {
+    shared.SetValue("Pack 2 value")
 }
 
-func getPack2() {
-    val := shared.getS()
+func GetPack2() {
+    val := shared.GetS()
     fmt.Println("%v %p",val,val)
 }

@@ -6,6 +6,6 @@ import (
 )
 
 func main () {
-	pack1.setPack1()
-	pack2.getPack2()
+	pack1.SetPack1()
+	pack2.GetPack2()
 }
